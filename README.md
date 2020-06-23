@@ -1,2 +1,2 @@
 # javascript
- Primeiros pssos com JavaScript - Curso em video
+ Primeiros passos com JavaScript - Curso em video
