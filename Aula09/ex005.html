@@ -14,14 +14,27 @@
     </style>
 </head>
 <body>
-    
+
     <h1>Iniciando Estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim </div><br/>
 
     <script>
+        /*var p1 = window.document.getElementsByTagName('p')[0]
+        var p2 = window.document.getElementsByTagName('p')[1]
+        
+        window.document.write("Conteúdo do primeiro parágrafo : " + p1.innerText + "<br/>")
 
+        window.document.write("Conteúdo do segundo parágrafo : " + p2.innerText)
+        
+        var d = window.document.getElementById('msg')*/
+
+        var d = window.document.querySelector('div#msg')
+
+        d.style.color= 'black'
+
+        
     </script>
 </body>
 </html>
