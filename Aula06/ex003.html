@@ -23,9 +23,13 @@
    <p>Ja me livrei da maldição.</p> <!--Comentário em HTML-->
    <script>
       
-    var nome = window.prompt('Qual é o seu nome? ') // Comentário em JavaScript
+    var n1 = Number(window.prompt('Digite um número :')) //prompt recebe uma string. Number ou Number.parseFloat,Number.parseInt , converte o valor de entrada para guardar na variavel e depois somar.
 
-    window.alert('Nome digitado ' + nome + "!")// Concatenação
+    var n2 = Number(window.prompt('Digite outro número :')) //prompt recebe uma string
+
+    var soma = n1 + n2
+
+    window.alert(`A some de  ${n1} + ${n2}  é : ${soma}` )// Concatenação
    </script> 
 </body>
 </html>

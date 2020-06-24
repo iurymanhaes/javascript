@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+font: normal 20pt Arial;
+
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome ?')
+
+        document.write(`Ola, ${nome}! seu nome tem ${nome.length} letras<br/>`) /*
+        documen.write Escreve no contéudo 
+        ${} template string
+        .length quantidade de caracteres    
+        */
+        document.write(`Seu nome tudo em letras maiusculas ${nome.toUpperCase()}`)//.toUpperCase() -> Trasforma todo a string em letras maiusculas
+        document.write(`Seu nome tudo em letras minusculas ${nome.toLowerCase()}`)//.toLowerCase() -> trasforma todo a string em latras minusculas
+    </script>
+</body>
+</html>
