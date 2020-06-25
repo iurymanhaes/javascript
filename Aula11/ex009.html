@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex proposto</title>
+    
+</head>
+<body>
+    <h1>Exercício proposto</h1>
+    Você mora em qual país? <input type="text" name="txtpais" id="txtpais">
+    <p><input type="button" value="Verificar" onclick="verificar()"></p>
+    <div id="res">
+
+    </div>
+    <script>
+function verificar(){
+    var pais = window.document.querySelector('input#txtpais')
+    var res = window.document.getElementById('res')
+    var p = pais.value.toUpperCase()
+
+    res.innerHTML = (`Vivendo em <strong>${p}</strong>`)
+
+    if(p == 'BRASIL'){
+        res.innerHTML += ('<p>Você é <strong>BRASILEIRO</strong></p>')
+    }else{
+        res.innerHTML += ('<p>Você é <strong>ESTRANGEIRO</strong></p>')    
+    }   
+}
+    </script>
+</body>
+</html>
